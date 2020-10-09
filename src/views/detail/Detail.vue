@@ -122,7 +122,7 @@
 			this.iid = this.$route.params.iid
 			//根据iid获取相应得数据
 			getDetail(this.iid).then(res => {
-				//console.log(res);
+				console.log(res);
 				const data = res.result
 				//轮播图数据
 				this.topImages = data.itemInfo.topImages
@@ -140,7 +140,7 @@
 				}
 			})
 			getRecommend().then(res => {
-				//console.log(res);
+				console.log(res);
 				this.recommend = res.data.list
 			})
 		},

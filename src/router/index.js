@@ -31,7 +31,7 @@ const routes = [
 		component: Profile
 	},
 	{
-		path: '/detail',
+		path: '/detail/:iid',
 		component: Detail
 	}
 ]
